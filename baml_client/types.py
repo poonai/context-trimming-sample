@@ -42,7 +42,7 @@ def all_succeeded(checks: typing.Dict[CheckName, Check]) -> bool:
 
 class TaskStatus(str, Enum):
     COMPLETED = "COMPLETED"
-    CLARIFYING = "CLARIFYING"
+    PROCESSING = "PROCESSING"
 
 # #########################################################################
 # Generated classes (6)

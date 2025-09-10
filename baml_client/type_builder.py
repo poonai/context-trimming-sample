@@ -72,7 +72,7 @@ class TaskStatusAst:
     def __init__(self, tb: type_builder.TypeBuilder):
         _tb = tb._tb # type: ignore (we know how to use this private attribute)
         self._bldr = _tb.enum("TaskStatus")
-        self._values: typing.Set[str] = set([  "COMPLETED",  "CLARIFYING",  ])
+        self._values: typing.Set[str] = set([  "COMPLETED",  "PROCESSING",  ])
         self._vals = TaskStatusValues(self._bldr, self._values)
 
     def type(self) -> baml_py.FieldType:
@@ -104,8 +104,8 @@ class TaskStatusValues:
         return type_builder.EnumValueViewer(self.__bldr.value("COMPLETED"))
     
     @property
-    def CLARIFYING(self) -> type_builder.EnumValueViewer:
-        return type_builder.EnumValueViewer(self.__bldr.value("CLARIFYING"))
+    def PROCESSING(self) -> type_builder.EnumValueViewer:
+        return type_builder.EnumValueViewer(self.__bldr.value("PROCESSING"))
     
     
 

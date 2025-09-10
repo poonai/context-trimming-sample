@@ -92,7 +92,6 @@ class Agent:
                 'metadata': {
                     'equation': equation,
                     'result': str(result),
-                    'task_status': 'COMPLETED'  # Assuming tool execution completes the task
                 }
             }
             
@@ -125,7 +124,6 @@ class Agent:
                 'metadata': {
                     'equation': equation,
                     'result': str(result),
-                    'task_status': 'COMPLETED'  # Assuming tool execution completes the task
                 }
             }
             
@@ -160,7 +158,6 @@ class Agent:
                     'equation': equation,
                     'x_value': x_value,
                     'result': str(result),
-                    'task_status': 'COMPLETED'  # Assuming tool execution completes the task
                 }
             }
             

@@ -36,7 +36,7 @@ class QuadraticEvaluator {
 
 enum TaskStatus {
     COMPLETED 
-    CLARIFYING
+    PROCESSING
 }
 
 class MessageToUser {
