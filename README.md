@@ -4,9 +4,9 @@ A mathematical agent that solves equations which require stitching multiple tool
 
 ## Features
 
-- Solve quadratic equations (e.g., "Solve x^2 - 5x + 6 = 0")
-- Find derivatives of quadratic equations (e.g., "What is the derivative of 2x^2 + 4x - 6?")
-- Evaluate quadratic equations at specific x values (e.g., "Evaluate 3x^2 - 2x + 1 when x = 2")
+- Solve quadratic equations (e.g., "Solve x^2 - 5*x + 6 = 0")
+- Find derivatives of quadratic equations (e.g., "What is the derivative of 2x^2 + 4*x - 6?")
+- Evaluate quadratic equations at specific x values (e.g., "Evaluate 3x^2 - 2*x + 1 when x = 2")
 - Answer general math questions
 - Context trimming to reduce token usage in conversations
 
